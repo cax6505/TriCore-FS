@@ -1,0 +1,184 @@
+
+@font-face {
+  font-family: 'Saprona';
+  src: url('/assets/font/Saprona-UltraLight.woff2') format('woff2'),
+    url('/assets/font/Saprona-UltraLight.woff') format('woff'),
+    url('/assets/font/Saprona-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saprona';
+  src: url('/assets/font/Saprona-Light.woff2') format('woff2'),
+    url('/assets/font/Saprona-Light.woff') format('woff'),
+    url('/assets/font/Saprona-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saprona';
+  src: url('/assets/font/Saprona-Regular.woff2') format('woff2'),
+    url('/assets/font/Saprona-Regular.woff') format('woff'),
+    url('/assets/font/Saprona-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saprona';
+  src: url('/assets/font/Saprona-Medium.woff2') format('woff2'),
+    url('/assets/font/Saprona-Medium.woff') format('woff'),
+    url('/assets/font/Saprona-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saprona';
+  src: url('/assets/font/Saprona-SemiBold.woff2') format('woff2'),
+    url('/assets/font/Saprona-SemiBold.woff') format('woff'),
+    url('/assets/font/Saprona-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saprona';
+  src: url('/assets/font/Saprona-Bold.woff2') format('woff2'),
+    url('/assets/font/Saprona-Bold.woff') format('woff'),
+    url('/assets/font/Saprona-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saprona';
+  src: url('/assets/font/Saprona-Black.woff2') format('woff2'),
+    url('/assets/font/Saprona-Black.woff') format('woff'),
+    url('/assets/font/Saprona-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0rem;
+    --font-saprona: 'Saprona';
+    --font-mono: 'Saprona';
+
+    /* Visualization module tokens */
+    --block-free: 0 0% 92%;
+    --block-used: 0 0% 50%;
+    --block-selected: 0 0% 20%;
+    --block-border: 0 0% 70%;
+    --panel-bg: 0 0% 100%;
+    --panel-header: 0 0% 96%;
+    --panel-border: 0 0% 88%;
+    --item-hover: 0 0% 95%;
+    --item-selected: 0 0% 90%;
+  }
+
+  
+  .no-radius *,
+  .no-radius *::before,
+  .no-radius *::after {
+    border-radius: 0 !important;
+  }
+
+  body {
+    @apply bg-white text-llama-text antialiased;
+    font-family: var(--font-saprona);
+  }
+
+  
+  h1 {
+    font-family: var(--font-saprona);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-family: var(--font-saprona);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+}
+
+@layer utilities {
+  .llama-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#8B5CF6] to-[#EC4899];
+  }
+
+  .llama-hero-gradient {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 30%, #E0F2FE 60%, #E879F9 90%, #FDBA74 100%);
+    opacity: 0.8;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-panel border border-panel-border;
+  }
+
+  .panel-header {
+    @apply bg-panel-header px-3 py-2 border-b border-panel-border font-semibold text-sm uppercase tracking-wide text-muted-foreground;
+  }
+
+  .tree-item {
+    @apply px-2 py-1.5 cursor-pointer hover:bg-item-hover transition-colors duration-75;
+  }
+
+  .tree-item-selected {
+    @apply bg-item-selected;
+  }
+
+  .disk-block {
+    @apply w-6 h-6 border border-block-border transition-colors duration-75;
+  }
+
+  .disk-block-free {
+    @apply bg-block-free;
+  }
+
+  .disk-block-used {
+    @apply bg-block-used;
+  }
+
+  .disk-block-selected {
+    @apply bg-block-selected;
+  }
+}

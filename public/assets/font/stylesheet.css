@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Saprona';
+    src: url('Saprona-Medium.eot');
+    src: local('Saprona Medium'), local('Saprona-Medium'),
+        url('Saprona-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Saprona-Medium.woff2') format('woff2'),
+        url('Saprona-Medium.woff') format('woff'),
+        url('Saprona-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saprona';
+    src: url('Saprona-Light.eot');
+    src: local('Saprona Light'), local('Saprona-Light'),
+        url('Saprona-Light.eot?#iefix') format('embedded-opentype'),
+        url('Saprona-Light.woff2') format('woff2'),
+        url('Saprona-Light.woff') format('woff'),
+        url('Saprona-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saprona';
+    src: url('Saprona-SemiBold.eot');
+    src: local('Saprona SemiBold'), local('Saprona-SemiBold'),
+        url('Saprona-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Saprona-SemiBold.woff2') format('woff2'),
+        url('Saprona-SemiBold.woff') format('woff'),
+        url('Saprona-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saprona';
+    src: url('Saprona-UltraLight.eot');
+    src: local('Saprona UltraLight'), local('Saprona-UltraLight'),
+        url('Saprona-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('Saprona-UltraLight.woff2') format('woff2'),
+        url('Saprona-UltraLight.woff') format('woff'),
+        url('Saprona-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saprona';
+    src: url('Saprona-Black.eot');
+    src: local('Saprona Black'), local('Saprona-Black'),
+        url('Saprona-Black.eot?#iefix') format('embedded-opentype'),
+        url('Saprona-Black.woff2') format('woff2'),
+        url('Saprona-Black.woff') format('woff'),
+        url('Saprona-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saprona';
+    src: url('Saprona-Bold.eot');
+    src: local('Saprona Bold'), local('Saprona-Bold'),
+        url('Saprona-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Saprona-Bold.woff2') format('woff2'),
+        url('Saprona-Bold.woff') format('woff'),
+        url('Saprona-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saprona';
+    src: url('Saprona-Regular.eot');
+    src: local('Saprona Regular'), local('Saprona-Regular'),
+        url('Saprona-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Saprona-Regular.woff2') format('woff2'),
+        url('Saprona-Regular.woff') format('woff'),
+        url('Saprona-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
