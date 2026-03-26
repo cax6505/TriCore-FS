@@ -1,6 +1,3 @@
-[submodule "subfolder"]
-	path = subfolder
-	url = https://github.com/cax6505/Smart_folder_organizer.git
 [submodule "smart_folder_organizer"]
 	path = smart_folder_organizer
 	url = https://github.com/cax6505/Smart_folder_organizer.git
