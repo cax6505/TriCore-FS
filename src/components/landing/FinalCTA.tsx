@@ -81,7 +81,7 @@ export const FinalCTA = () => {
                         </p>
                         <div className="flex flex-wrap items-center gap-3">
                             <a
-                                href="https://github.com/nandu-99/TriCoreFS"
+                                href="https://github.com/cax6505/TriCore-FS"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

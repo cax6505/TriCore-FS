@@ -87,7 +87,7 @@ export const Footer = () => {
                         <ul className="space-y-0.5 mb-8">
                             <li>
                                 <a
-                                    href="https://github.com/nandu-99/TriCoreFS"
+                                    href="https://github.com/cax6505/TriCore-FS"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-[14px] text-black hover:text-gray-600 transition-colors"
@@ -100,16 +100,6 @@ export const Footer = () => {
 
                         <SectionLabel>CONTRIBUTORS</SectionLabel>
                         <ul className="space-y-0.5 text-[14px] text-black" style={{ lineHeight: "1.8" }}>
-                            <li>
-                                <a href="https://github.com/nandu-99/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600 transition-colors">
-                                    Vivekananda
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/Adi-gitX/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600 transition-colors">
-                                    Adithya K
-                                </a>
-                            </li>
                             <li>
                                 <a href="https://github.com/cax6505" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600 transition-colors">
                                     Charan Adithya

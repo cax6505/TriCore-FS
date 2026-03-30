@@ -101,7 +101,7 @@ export const Navbar = () => {
 
                     <div className="flex items-center gap-1.5 px-5">
                         <a
-                            href="https://github.com/nandu-99/TriCoreFS"
+                            href="https://github.com/cax6505/TriCore-FS"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

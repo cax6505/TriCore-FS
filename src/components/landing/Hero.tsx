@@ -58,7 +58,7 @@ export const Hero = () => {
                         </p>
                         <div className="flex items-center gap-2">
                             <a
-                                href="https://github.com/nandu-99/TriCoreFS"
+                                href="https://github.com/cax6505/TriCore-FS"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
